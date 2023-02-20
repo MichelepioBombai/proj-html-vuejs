@@ -6,6 +6,8 @@
   color: lightslategray;
   padding-top: 20px;
   border-bottom: 1px solid lightslategray;
+  padding-left: 60px;
+  padding-right: 120px;
 }
 
 ul {
@@ -15,4 +17,56 @@ ul {
 ul li {
   display: inline;
   margin-left: 25px;
+}
+
+/* HEADER-BOTTOM */
+
+.header-bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  vertical-align: middle;
+  position: relative;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.input-group {
+  width: 500px;
+  margin-left: 20px;
+  max-height: 50px;
+}
+.form-control {
+  background-color: hsl(216deg 20% 95%);
+  border: none;
+}
+
+.input-group-text {
+  width: 50px;
+  background-color: hsl(200deg 36% 42%);
+  color: white;
+}
+
+.btn,
+.btn:hover {
+  background-color: hsl(356deg 100% 63%);
+  color: white;
+  border-radius: 25px;
+  padding: 15px 30px;
+  position: relative;
+  bottom: 15px;
+}
+
+.job {
+  position: relative;
+  top: 15px;
+}
+
+.login {
+  position: relative;
+  top: 15px;
+}
+
+.pr {
+  position: relative;
+  top: 15px;
 }

@@ -35,11 +35,9 @@
     <div id="app">
       <!-- HEADER -->
       <header>
+        <!-- HEADER-UP -->
         <div class="header-up">
-          <div
-            class="container d-flex justify-content-between"
-            v-for="link in links"
-          >
+          <div class="d-flex justify-content-between" v-for="link in links">
             <ul>
               <li>{{link.language}}</li>
             </ul>
@@ -47,8 +45,38 @@
             <ul>
               <li v-for="item in link.link">{{item}}</li>
 
-              <li v-for="icon in link.icons" :class="'fa' + icon"></li>
+              <li><i v-for="icon in link.icons" :class="'fa' + icon"> </i></li>
             </ul>
+          </div>
+        </div>
+
+        <!-- HEADER-BOTTOM -->
+        <div class="header-bottom">
+          <div class="d-flex gap-4" v-for="link in links">
+            <img class="pe-5" :src="link.img" alt="" />
+
+            <span class="pr">{{link.category}}</span>
+            <div class="input-group mb-0">
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+                placeholder="Search Courses"
+              />
+              <span class="input-group-text" id="inputGroup-sizing-default"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></span>
+            </div>
+            <div class="job d-flex pe-5 ps-5 gap-3">
+              <span v-for="job in link.job">{{job}}</span>
+            </div>
+
+            <div class="d-flex gap-5 login">
+              <span><i class="fa-solid fa-user"></i>Log in</span>
+              <button class="btn">SIGN UP</button>
+              <span><i class="fa-solid fa-bookmark"></i></span>
+            </div>
           </div>
         </div>
       </header>
