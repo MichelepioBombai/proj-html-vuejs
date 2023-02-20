@@ -1,0 +1,18 @@
+/* HEADER */
+
+/* HEADER-UP */
+
+.header-up {
+  color: lightslategray;
+  padding-top: 20px;
+  border-bottom: 1px solid lightslategray;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+  margin-left: 25px;
+}
