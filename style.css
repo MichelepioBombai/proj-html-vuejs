@@ -105,9 +105,9 @@ ul li {
   border: 1px solid lightslategray;
   padding-left: 25px;
   padding-right: 25px;
-  max-width: 272px;
+  width: 272px;
   padding-top: 10px;
-  max-height: 190px;
+  height: 190px;
 }
 
 .info-course p {
@@ -140,7 +140,8 @@ ul li {
   bottom: 40px;
 }
 
-.development-courses {
+.development-courses,
+.recent-course {
   padding-left: 120px;
   padding-right: 60px;
   margin-bottom: 100px;
@@ -164,4 +165,43 @@ ul li {
 .online-courses p {
   padding-bottom: 30px;
   font-size: 22px;
+}
+
+.bg-gray {
+  background-color: hsl(216deg 50% 96%);
+  border-radius: 20px;
+  padding: 8px 5px;
+  position: relative;
+  bottom: 8px;
+}
+
+/* RECENT COURSES */
+
+.recent-course {
+  position: relative;
+}
+
+.recent-course li {
+  color: hsl(236deg 6% 53%);
+  margin-bottom: 40px;
+}
+
+.btn-show {
+  background-color: hsl(356deg 100% 63%);
+  color: white;
+  border-radius: 25px;
+  padding: 15px 30px;
+  border: none;
+}
+
+.sidebar-options {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  width: 40px;
+  height: 185px;
+  text-align: center;
+  box-shadow: 0px 0px 20px 0px black;
+  cursor: pointer;
 }
