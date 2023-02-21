@@ -143,4 +143,25 @@ ul li {
 .development-courses {
   padding-left: 120px;
   padding-right: 60px;
+  margin-bottom: 100px;
+}
+
+/* ONLINE COURSES */
+
+.online-courses {
+  background-image: url(./img/bg.png);
+  background-repeat: repeat;
+  height: 550px;
+  margin-bottom: 100px;
+}
+
+.online-courses h2 {
+  padding-top: 130px;
+  padding-bottom: 20px;
+  font-size: 52px;
+}
+
+.online-courses p {
+  padding-bottom: 30px;
+  font-size: 22px;
 }
