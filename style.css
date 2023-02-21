@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 /* HEADER */
 
 /* HEADER-UP */
@@ -145,9 +148,10 @@ ul li {
 }
 
 .development-courses,
-.recent-course {
+.recent-course,
+.popular-courses {
   padding-left: 120px;
-  padding-right: 60px;
+  padding-right: 120px;
   margin-bottom: 100px;
 }
 
@@ -204,18 +208,19 @@ ul li {
   right: 0;
   bottom: 0;
   background-color: white;
-  width: 40px;
-  height: 185px;
+  width: 70px;
+  height: 285px;
   text-align: center;
   box-shadow: 0px 0px 20px 0px black;
   cursor: pointer;
+  font-size: 24px;
+  padding-top: 30px;
 }
 
 /* NEWSLETTER */
 
 .newsletter {
   background-color: #ff4450;
-  margin-bottom: 50px;
   height: 160px;
   padding-top: 30px;
 }
@@ -223,4 +228,35 @@ ul li {
 .subs {
   width: 105px;
   border: none;
+}
+
+/* POPULAR COURSES */
+
+.popular-courses {
+  background-color: hsl(216deg 50% 96%);
+  padding-top: 80px;
+  height: 750px;
+}
+
+.prev {
+  color: lightslategrey;
+  background-color: white;
+  font-size: 30px;
+  padding: 5px 15px;
+  border: 1px solid lightslategrey;
+}
+
+.next {
+  color: lightslategrey;
+  background-color: white;
+  font-size: 30px;
+  padding: 5px 15px;
+  border: 1px solid lightslategrey;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #457993;
+  color: white;
+  cursor: pointer;
 }

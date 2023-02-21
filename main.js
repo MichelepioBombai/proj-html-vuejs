@@ -9,6 +9,13 @@ const app = Vue.createApp({
           language: "English",
           img: "./img/masterstudy-logo.svg",
           category: "CATEGORY",
+          app: [
+            "Business",
+            "Design",
+            "Development",
+            "Lifestyle",
+            "Office Productivity",
+          ],
           job: ["Become an instructor", "For Enterprise"],
           link: ["Home", "Pages", "Course Formats", "Courses", "Demos"],
 
@@ -22,6 +29,13 @@ const app = Vue.createApp({
           ],
         },
       ],
+      appIcons: {
+        Business: "fa-solid fa-briefcase",
+        Design: "fa-solid fa-palette",
+        Development: "fa-solid fa-gear",
+        Lifestyle: "fa-regular fa-face-smile",
+        Office_Productivity: "fa-solid fa-print",
+      },
     };
   },
 });

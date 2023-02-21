@@ -68,7 +68,7 @@
                 ><i class="fa-solid fa-magnifying-glass"></i
               ></span>
             </div>
-            <div class="job d-flex pe-5 ps-5 gap-3">
+            <div class="job d-flex pe-5 ps-5 gap-5">
               <span v-for="job in link.job">{{job}}</span>
             </div>
 
@@ -85,21 +85,9 @@
       <main>
         <!-- PRIMA SECTION MAIN -->
         <section class="main-navbar d-flex justify-content-center gap-5">
-          <span class="text-light fs-5"
-            ><i class="fa-solid fa-chart-line"></i> Business</span
-          >
-          <span class="text-light fs-5"
-            ><i class="fa-solid fa-palette"></i> Design</span
-          >
-          <span class="text-light fs-5"
-            ><i class="fa-solid fa-gear"></i> Development</span
-          >
-          <span class="text-light fs-5"
-            ><i class="fa-regular fa-face-smile"></i> Lifestyle</span
-          >
-          <span class="text-light fs-5"
-            ><i class="fa-solid fa-print"></i> Office Productivity</span
-          >
+          <span class="text-light fs-5" v-for="app in links[0].app"
+            ><i :class="'fas' + appIcons[app]"></i>{{app}}
+          </span>
         </section>
 
         <!-- JUMBOTRON -->
@@ -474,9 +462,7 @@
           <div class="text-center m-auto d-flex justify-content-center mt-5">
             <button class="btn-show">SHOW ALL</button>
           </div>
-          <div
-            class="d-flex flex-column justify-content-end gap-4 sidebar-options"
-          >
+          <div class="d-flex flex-column gap-4 sidebar-options">
             <i class="fa-solid fa-tv"></i>
             <i class="fa-solid fa-wrench"></i>
             <i class="fa-solid fa-cart-shopping"></i>
@@ -516,6 +502,123 @@
               </div>
             </div>
           </div>
+        </section>
+
+        <!-- POPULAR COURSES -->
+        <section class="popular-courses">
+          <h2 class="text-center fs-1">Popular courses</h2>
+          <p class="text-center mb-5">
+            Discover our most popular courses for self learning
+          </p>
+          <div class="row">
+            <div class="col-2">
+              <img src="./img/895786_7b4b_2-272x161.jpg" alt="" />
+              <div class="info-course">
+                <small>Development ></small>
+                <p>The Complete iOS 10 & Swift 3 Developer Course</p>
+                <hr />
+                <span class="valuation">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </span>
+                <span class="price">$199.99</span>
+                <span class="discounted-price">$100</span>
+              </div>
+            </div>
+            <div class="col-2">
+              <img src="./img/1561458_7f3b-272x161.jpg" alt="" />
+              <div class="info-course">
+                <small>Design ></small>
+                <p>
+                  CSS - The Complete Guide 2020 (incl. Flexbox, Grid & Sass)
+                </p>
+                <hr />
+                <span class="valuation">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+                <span class="price">$199.99</span>
+                <span class="discounted-price">$100</span>
+              </div>
+            </div>
+            <div class="col-2">
+              <img src="./img/246154_d8b0_3-272x161.jpg" alt="" />
+              <div class="info-course">
+                <small>Development ></small>
+                <p>Web Design for Beginners: Real World Coding in HTML & CSS</p>
+                <hr />
+                <span class="valuation">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="price">$129.99</span>
+                <span class="discounted-price">$65</span>
+              </div>
+            </div>
+            <div class="col-2">
+              <img src="./img/1208228_d61c_4-272x161.jpg" alt="" />
+              <div class="info-course">
+                <small>Design ></small>
+                <p>Digitally Painting Light and Color: Amateur to Master</p>
+                <hr />
+                <span class="valuation">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="price">$139.99</span>
+                <span class="discounted-price">$70</span>
+              </div>
+            </div>
+            <div class="col-2">
+              <img src="./img/186792_41e4_4-272x161.jpg" alt="" />
+              <div class="info-course">
+                <small>Arts & Crafts ></small>
+                <p>Become an Arabic Calligraphy Artist from Scratch</p>
+                <hr />
+                <span class="valuation">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </span>
+                <span class="price">$99.99</span>
+                <span class="discounted-price">$50</span>
+              </div>
+            </div>
+            <div class="col-2">
+              <img src="./img/1776542_30b1-272x161.jpg" alt="" />
+              <div class="info-course">
+                <small>Google ></small>
+                <p>Google Searching Ninja!</p>
+                <hr />
+                <span class="valuation">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                  <i class="fa-regular fa-star"></i>
+                </span>
+                <span class="price">$89.99</span>
+                <span class="discounted-price">$45</span>
+              </div>
+            </div>
+            <div class="input-controls text-center m-auto d-flex justify-content-center mt-5">
+              <div class="prev"> < </div>
+              <div class="next"> > </div>
+            </div>
         </section>
       </main>
     </div>
