@@ -98,3 +98,49 @@ ul li {
   color: white;
   font-size: 26px;
 }
+
+/* DEVELOPMENT COURSES */
+
+.info-course {
+  border: 1px solid lightslategray;
+  padding-left: 25px;
+  padding-right: 25px;
+  max-width: 272px;
+  padding-top: 10px;
+  max-height: 190px;
+}
+
+.info-course p {
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.info-course small {
+  color: lightgray;
+}
+
+.valuation {
+  color: goldenrod;
+  padding-right: 40px;
+}
+
+.price {
+  display: flex;
+  position: relative;
+  left: 165px;
+  bottom: 35px;
+  color: lightslategray;
+  text-decoration: line-through;
+  font-size: 14px;
+}
+
+.discounted-price {
+  position: relative;
+  left: 180px;
+  bottom: 40px;
+}
+
+.development-courses {
+  padding-left: 120px;
+  padding-right: 60px;
+}
