@@ -149,7 +149,8 @@ ul li {
 
 .development-courses,
 .recent-course,
-.popular-courses {
+.popular-courses,
+.teaching {
   padding-left: 120px;
   padding-right: 120px;
   margin-bottom: 100px;
@@ -236,6 +237,7 @@ ul li {
   background-color: hsl(216deg 50% 96%);
   padding-top: 80px;
   height: 750px;
+  margin-bottom: 60px;
 }
 
 .prev {
@@ -259,4 +261,21 @@ ul li {
   background-color: #457993;
   color: white;
   cursor: pointer;
+}
+
+/* TEACHING */
+
+.instructor,
+.business {
+  border: 1px solid lightgrey;
+  padding-left: 30px;
+  padding-top: 60px;
+  height: 350px;
+}
+
+.info-instructor,
+.info-business {
+  position: relative;
+  left: 250px;
+  bottom: 170px;
 }
