@@ -99,6 +99,10 @@ ul li {
   font-size: 26px;
 }
 
+.img-jumb {
+  max-width: 940px;
+}
+
 /* DEVELOPMENT COURSES */
 
 .info-course {
@@ -151,8 +155,9 @@ ul li {
 
 .online-courses {
   background-image: url(./img/bg.png);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   height: 550px;
+  min-width: 1710px;
   margin-bottom: 100px;
 }
 
@@ -204,4 +209,18 @@ ul li {
   text-align: center;
   box-shadow: 0px 0px 20px 0px black;
   cursor: pointer;
+}
+
+/* NEWSLETTER */
+
+.newsletter {
+  background-color: #ff4450;
+  margin-bottom: 50px;
+  height: 160px;
+  padding-top: 30px;
+}
+
+.subs {
+  width: 105px;
+  border: none;
 }
