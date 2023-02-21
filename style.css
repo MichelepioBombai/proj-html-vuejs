@@ -279,3 +279,32 @@ ul li {
   left: 250px;
   bottom: 170px;
 }
+
+/* FUTURE */
+
+.future {
+  background-image: url(./img/testimonial-1-1917x640-1-1914x639.jpg);
+  background-repeat: no-repeat;
+  height: 700px;
+  padding-top: 100px;
+}
+
+.interview {
+  background-color: white;
+  padding: 40px 80px;
+  position: relative;
+  left: 150px;
+  height: 471px;
+}
+
+.interview p {
+  color: grey;
+}
+
+.arrow {
+  position: relative;
+  left: 400px;
+  bottom: 160px;
+  color: white;
+  font-size: 56px;
+}
