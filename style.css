@@ -81,3 +81,20 @@ ul li {
   padding-bottom: 25px;
   margin-bottom: 30px;
 }
+
+/* JUMBOTRON */
+
+.slide-jumbo {
+  background-color: #ff4450;
+  margin-bottom: 60px;
+}
+.slide-jumbo h2 {
+  color: white;
+  padding-top: 90px;
+  font-size: 56px;
+}
+
+.slide-jumbo p {
+  color: white;
+  font-size: 26px;
+}
