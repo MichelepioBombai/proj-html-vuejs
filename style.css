@@ -70,3 +70,14 @@ ul li {
   position: relative;
   top: 15px;
 }
+
+/* MAIN */
+
+/* PRIMA SECTION */
+
+.main-navbar {
+  background-color: hsl(221deg 27% 21%);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+}
