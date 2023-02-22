@@ -659,6 +659,56 @@
         </section>
 
       </main>
+
+      <!-- FOOTER -->
+      <footer>
+        <div class="footer-up">
+          <div class="container"
+          >
+            <div class="row">
+              <div class="col-3">
+                <h3>ABOUT</h3>
+                <p>Sed nec felis pellentesque, lacinia dui sed, ultricies sapien. Pellentesque orci lectus, consectetur vel, rutrum eu ipsum, Mauris accumsan eros eget libero posuere vulputate.</p>
+              </div>
+              <div class="col-3">
+                <h3>CONTACT</h3>
+                <p class="mb-4">USA, California 20, First Avenue, California</p>
+                <p>Tel:+1 212 458 300 32</p>
+                <p class="mb-3">Fax:+1 212 375 24 14</p>
+                <a class="text-muted master" href="#">info@masterstudy.com</a>
+              </div>
+              <div class="col-3 icon-footer ">
+                <h3>SOCIAL NETWORK</h3>
+                
+                  <i class="fa-brands fa-facebook fb circle mb-2"></i>
+                  <i class="fa-brands fa-instagram ig circle mb-2"></i>
+                  <i class="fa-brands fa-linkedin linkedin circle mb-2"></i>
+                  <i class="fa-brands fa-pinterest pint circle mb-2"></i>
+                  
+                
+                
+                  <i class="fa-brands fa-twitter twitter circle"></i>
+                  <i class="fa-brands fa-dribbble dribble circle"></i>
+                  <i class="fa-brands fa-google-plus google circle"></i>
+                  <i class="fa-brands fa-skype twitter circle"></i>
+
+               
+              </div>
+              <div class="col-3" v-for="link in links2">
+                <img class="w-100" :src="link.img" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom d-flex">
+          <div class="container">
+            <img class="mt-4 logo-footer" src="./img/footer-logo2x-50x56.png" alt="">
+            <p class="text-white mb-0">Copyright 2020. <a class="text-white" href="#">MasterStudy.</a> Theme by <a class="text-white" href="#"> StylemixThemes</a> </p>
+
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

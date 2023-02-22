@@ -29,6 +29,14 @@ const app = Vue.createApp({
           ],
         },
       ],
+
+      links2: [
+        {
+          info: ["ABOUT", "CONTACT", "SOCIAL NETWORK"],
+          img: "./img/Top-udemy-courses-90-percent-off.jpg",
+        },
+      ],
+
       appIcons: {
         Business: "fa-solid fa-briefcase",
         Design: "fa-solid fa-palette",

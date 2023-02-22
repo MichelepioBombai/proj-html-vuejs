@@ -109,10 +109,10 @@ ul li {
 /* DEVELOPMENT COURSES */
 
 .info-course {
-  border: 1px solid lightslategray;
+  border: 1px solid grey;
   padding-left: 25px;
   padding-right: 25px;
-  width: 272px;
+  width: 274px;
   padding-top: 10px;
   height: 190px;
 }
@@ -154,6 +154,11 @@ ul li {
   padding-left: 120px;
   padding-right: 120px;
   margin-bottom: 100px;
+}
+
+.development-courses img {
+  border: 1px solid grey;
+  border-bottom: none;
 }
 
 /* ONLINE COURSES */
@@ -218,6 +223,11 @@ ul li {
   padding-top: 30px;
 }
 
+.recent-course img {
+  border: 1px solid grey;
+  border-bottom: none;
+}
+
 /* NEWSLETTER */
 
 .newsletter {
@@ -261,6 +271,11 @@ ul li {
   background-color: #457993;
   color: white;
   cursor: pointer;
+}
+
+.popular-courses img {
+  border: 1px solid grey;
+  border-bottom: none;
 }
 
 /* TEACHING */
@@ -307,4 +322,92 @@ ul li {
   bottom: 160px;
   color: white;
   font-size: 56px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #273044;
+  height: 370px;
+}
+
+/* FOOTER UP */
+
+.footer-up {
+  color: white;
+  padding-top: 60px;
+  height: 300px;
+  border-bottom: 1px solid grey;
+}
+
+.footer-up h3 {
+  font-size: 18px;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+
+.footer-up p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.master {
+  text-decoration-line: none;
+}
+
+.icon-footer {
+  font-size: 22px;
+  width: 250px;
+}
+
+.circle {
+  border-radius: 50%;
+  padding: 11px 11px;
+  margin-right: 8px;
+}
+
+.fb {
+  background-color: hsl(221deg 44% 41%);
+}
+
+.ig {
+  background-color: hsl(313deg 65% 46%);
+}
+
+.linkedin {
+  background-color: hsl(201deg 100% 35%);
+}
+
+.pint {
+  background-color: hsl(353deg 92% 39%);
+}
+
+.twitter {
+  background-color: hsl(203deg 89% 53%);
+}
+
+.google {
+  background-color: hsl(5deg 69% 54%);
+}
+
+.dribble {
+  background-color: hsl(337deg 79% 61%);
+}
+
+.twitter {
+  background-color: hsl(196deg 100% 47%);
+}
+
+/* FOOTER BOTTOM */
+
+.logo-footer {
+  width: 25px;
+  margin-right: 15px;
+  display: inline;
+}
+
+.footer-bottom p {
+  display: inline;
+  position: relative;
+  top: 12px;
 }
