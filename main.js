@@ -4,6 +4,9 @@ const app = Vue.createApp({
   data() {
     return {
       // HEADER
+
+      jobs: ["Become an instructor", "For Enterprise"],
+
       links: [
         {
           language: "English",
@@ -16,7 +19,6 @@ const app = Vue.createApp({
             "Lifestyle",
             "Office Productivity",
           ],
-          job: ["Become an instructor", "For Enterprise"],
           link: ["Home", "Pages", "Course Formats", "Courses", "Demos"],
 
           icons: [
@@ -30,6 +32,7 @@ const app = Vue.createApp({
         },
       ],
 
+      // FOOTER
       itemsAbout: [
         {
           title: "ABOUT",
@@ -45,26 +48,7 @@ const app = Vue.createApp({
           email: "info@masterstudy.com",
         },
       ],
-      socialIcons: [
-        {
-          title: "SOCIAL NETWORK",
-          items: [
-            { icon: "fa-facebook", name: "Facebook" },
-            { icon: "fa-instagram", name: "Instagram" },
-            { icon: "fa-linkedin", name: "LinkedIn" },
-            { icon: "fa-pinterest", name: "Pinterest" },
-          ],
-        },
-        {
-          title: "FOLLOW US",
-          items: [
-            { icon: "fa-twitter", name: "Twitter" },
-            { icon: "fa-dribbble", name: "Dribbble" },
-            { icon: "fa-google-plus", name: "Google Plus" },
-            { icon: "fa-skype", name: "Skype" },
-          ],
-        },
-      ],
+
       img: "./img/Top-udemy-courses-90-percent-off.jpg",
       img2: "./img/footer-logo2x-50x56.png",
 

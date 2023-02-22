@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
 }
+
 /* HEADER */
 
 /* HEADER-UP */
@@ -103,7 +104,7 @@ ul li {
 }
 
 .img-jumb {
-  max-width: 940px;
+  width: 940px;
 }
 
 /* DEVELOPMENT COURSES */
@@ -167,7 +168,7 @@ ul li {
   background-image: url(./img/bg.png);
   background-repeat: no-repeat;
   height: 550px;
-  min-width: 1710px;
+
   margin-bottom: 100px;
 }
 
@@ -280,6 +281,10 @@ ul li {
 
 /* TEACHING */
 
+.teaching {
+  position: relative;
+}
+
 .instructor,
 .business {
   border: 1px solid lightgrey;
@@ -288,11 +293,16 @@ ul li {
   height: 350px;
 }
 
-.info-instructor,
+.info-instructor {
+  position: absolute;
+  top: 80px;
+  left: 380px;
+}
+
 .info-business {
-  position: relative;
-  left: 250px;
-  bottom: 170px;
+  position: absolute;
+  top: 80px;
+  right: 240px;
 }
 
 /* FUTURE */
