@@ -30,12 +30,43 @@ const app = Vue.createApp({
         },
       ],
 
-      links2: [
+      itemsAbout: [
         {
-          info: ["ABOUT", "CONTACT", "SOCIAL NETWORK"],
-          img: "./img/Top-udemy-courses-90-percent-off.jpg",
+          title: "ABOUT",
+          text: "Sed nec felis pellentesque, lacinia dui sed, ultricies sapien. Pellentesque orci lectus, consectetur vel, rutrum eu ipsum, Mauris accumsan eros eget libero posuere vulputate.",
         },
       ],
+      itemsContact: [
+        {
+          title: "CONTACT",
+          address: "USA, California 20, First Avenue, California",
+          phone: "+1 212 458 300 32",
+          fax: "+1 212 375 24 14",
+          email: "info@masterstudy.com",
+        },
+      ],
+      socialIcons: [
+        {
+          title: "SOCIAL NETWORK",
+          items: [
+            { icon: "fa-facebook", name: "Facebook" },
+            { icon: "fa-instagram", name: "Instagram" },
+            { icon: "fa-linkedin", name: "LinkedIn" },
+            { icon: "fa-pinterest", name: "Pinterest" },
+          ],
+        },
+        {
+          title: "FOLLOW US",
+          items: [
+            { icon: "fa-twitter", name: "Twitter" },
+            { icon: "fa-dribbble", name: "Dribbble" },
+            { icon: "fa-google-plus", name: "Google Plus" },
+            { icon: "fa-skype", name: "Skype" },
+          ],
+        },
+      ],
+      img: "./img/Top-udemy-courses-90-percent-off.jpg",
+      img2: "./img/footer-logo2x-50x56.png",
 
       appIcons: {
         Business: "fa-solid fa-briefcase",
